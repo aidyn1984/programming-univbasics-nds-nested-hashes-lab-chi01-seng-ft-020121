@@ -7,11 +7,12 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
-  don_g = { name:  "Don Gately", occupation: "Live-in Staff" }
-  j_vd = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
-  p_m =  { name:  "Pat Monteseian", occupation: "Staff" }
-  k_g = { name:  "Kate Gompert", occupation: "None" }
-  b_g = { name:  "Bruce Green", occupation: "Fan of Mildred" }
+  assembled_aoh = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
+       {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
+       {:name=>"Pat Monteseian", :occupation=>"Staff"},
+       {:name=>"Kate Gompert", :occupation=>"None"},
+       {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
+       
 end
 
 def literal_aoh
