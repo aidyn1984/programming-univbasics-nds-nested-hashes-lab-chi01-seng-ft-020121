@@ -39,5 +39,5 @@ def aoh_update(aoh, row, key, new_value)
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
   new_value = aoh_update
-  new_value[1][:name] = "Joelle van Dyne (PGOAT) "
+  new_value[0][:name] = "Joelle van Dyne (PGOAT) "
 end
