@@ -38,6 +38,7 @@ def aoh_update(aoh, row, key, new_value)
        {:name=>"Pat Monteseian", :occupation=>"Staff"},
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
-  aoh_update[1][:name] = "Joelle van Dyne (PGOAT)"
+  aoh_update[1][:name] = "Genry Josh Kazakiev"
+  aoh_update[1][:name]
        
 end
