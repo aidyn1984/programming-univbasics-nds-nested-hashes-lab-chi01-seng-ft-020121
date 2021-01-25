@@ -27,7 +27,6 @@ describe 'When a learning to perform lookups in AoHs,' do
     end 
   end 
 end
-
 describe 'When a learning to update cells in AoHs,' do
   describe 'when given a AoH, row, column, and new_value argument,' do
     it 'the aoh_update method returns an updated aoh' do
@@ -37,3 +36,4 @@ describe 'When a learning to update cells in AoHs,' do
     end
   end
 end
+
